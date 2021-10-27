@@ -9,9 +9,9 @@ class Main {
   public static void main(String[] args) throws Exception {
     try {
       // Host URL, endpoint, and query
-      String host = "http://api.icndb.com";
-      String endpoint = "/jokes/random";
-      String query = "?limitTo=[nerdy]";
+      String host = "https://dog.ceo/";
+      String endpoint = "/api/breeds/list/all";
+      String query = "";
 
       // put it all together into the api call
       String url = host + endpoint + query;
