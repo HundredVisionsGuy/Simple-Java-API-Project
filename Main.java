@@ -37,7 +37,7 @@ class Main {
 
       JSONArray breedsArray = new JSONArray(breeds);
       JSONObject jsonObject = breedsArray.getJSONObject(0);
-      String new_breeds = jsonObject.keySet().toString
+      String new_breeds = jsonObject.keySet().toString();
       //System.out.println(new_breeds);
       
       //System.out.println(breeds);
